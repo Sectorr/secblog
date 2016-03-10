@@ -1,0 +1,178 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e43c7e1de1e9143779ab7aea4f27452f",
+    "content-hash": "eb043e417bb5376dcb8cfb389ea45362",
+    "packages": [
+        {
+            "name": "catfan/medoo",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/342e2d6a3bcf4adcac58e67593d63547139ab1ac",
+                "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.1"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase databases on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB databases",
+                "ext-pdo_oci": "For Oracle databases",
+                "ext-pdo_pqsql": "For PostgreSQL databases",
+                "ext-pdo_sqlite": "For SQLite databases",
+                "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
+            },
+            "type": "framework",
+            "autoload": {
+                "files": [
+                    "medoo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The Lightest PHP database framework to accelerate development",
+            "homepage": "http://medoo.in",
+            "keywords": [
+                "database",
+                "lightweight",
+                "mssql",
+                "mysql",
+                "php framework",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2016-02-14 16:03:42"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "a327942c50cbd62b25c6fbe08f173031ce25fbff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/a327942c50cbd62b25c6fbe08f173031ce25fbff",
+                "reference": "a327942c50cbd62b25c6fbe08f173031ce25fbff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://github.com/filp/whoops",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "whoops",
+                "zf2"
+            ],
+            "time": "2016-01-06 17:51:21"
+        },
+        {
+            "name": "sectorr/core",
+            "version": "v0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sectorr/Core.git",
+                "reference": "3e11d004dc85e7ffd59f609fa5ba01d5917216ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sectorr/Core/zipball/3e11d004dc85e7ffd59f609fa5ba01d5917216ac",
+                "reference": "3e11d004dc85e7ffd59f609fa5ba01d5917216ac",
+                "shasum": ""
+            },
+            "require": {
+                "catfan/medoo": "^1.0",
+                "filp/whoops": "^2.0",
+                "php": ">5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sectorr\\Core\\": "Sectorr/Core/"
+                },
+                "files": [
+                    "Sectorr/Core/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "Mirko Kroese",
+                    "email": "mirko@sectorr.co"
+                },
+                {
+                    "name": "Janyk Steenbeek",
+                    "email": "janyk@sectorr.co"
+                }
+            ],
+            "description": "Core elements of Sectorr MVC",
+            "time": "2016-03-10 21:25:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

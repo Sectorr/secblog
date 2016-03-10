@@ -1,0 +1,21 @@
+{
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "name": "sectorrblog"
+  },
+  "user": "App\\Models\\User",
+
+  "blog": {
+    "name": "Your favourite blog name",
+    "subtitle": "Wow, its powered by Sectorr!",
+
+    "twitter": "janyksteenbeek",
+    "facebook": "janyksteenbeek",
+    "youtube": "UCJL2pyjJQ_7VbUKItznyTsQ",
+    "googleplus": "janyksteenbeek",
+
+    "socialButtons": 1
+  }
+}

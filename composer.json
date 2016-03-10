@@ -1,0 +1,21 @@
+{
+    "name": "sectorr/sectorr",
+    "description": "The simplified PHP framework for creative architects.",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Mirko Kroese",
+            "email": "mirko@sectorr.co"
+        },
+       	{
+       		"name": "Janyk Steenbeek",
+       		"email": "janyk@sectorr.co"
+       	}
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "app/"}
+    },
+    "require": {
+        "sectorr/core": "~0.1"
+    }
+  }
